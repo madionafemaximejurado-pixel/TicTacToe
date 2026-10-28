@@ -15,6 +15,9 @@ namespace TicTacToe
     {
         private const string PLAYER = "X";
         private const string CPU = "O";
+        private int playerScore = 0;
+        private int cpuScore = 0;
+
         private Button[] buttons;
 
         private int[][] winningCombinations = new int[][]
@@ -64,6 +67,16 @@ namespace TicTacToe
             if (val == CPU)
             {
                 CheckWinner();
+            }
+        }
+
+
+        private void ClearGame()
+        {
+            foreach (var button in buttons)
+            {
+                button.Text = "";
+                button.Enabled = true;
             }
         }
 
@@ -176,8 +189,8 @@ namespace TicTacToe
                 //CPU Win
                 if (combo.All(i => buttons[i - 1].Text == CPU))
                 {
-                    MessageBox.Show("CPU Wins!");
-                    ClearGame();
+                    HighlightWinningCombination(combo);
+                    CountWin(CPU);
                     return true;
                 }
             }
@@ -191,15 +204,38 @@ namespace TicTacToe
 
             return false;
         }
-
-
-        private void ClearGame()
+        private void HighlightWinningCombination(int[] combo)
         {
-            foreach (var button in buttons)
-            {
-                button.Text = "";
-                button.Enabled = true;
-            }
+            foreach (var i in combo)
+                buttons[i - 1].BackColor = Color.HotPink;
+
+            Application.DoEvents();
+            Thread.Sleep(2000);
+
+            foreach (var i in combo)
+                buttons[i - 1].BackColor = Color.Blue;
         }
+
+        private void CountWin(string winner)
+        {
+            if (winner == PLAYER) playerScore++;
+            else if (winner == CPU) cpuScore++;
+            lbl_PlayerScore.Text = playerScore.ToString();
+            lbl_ComputerScore.Text = cpuScore.ToString();
+
+            if (playerScore == 3 || cpuScore == 3)
+            {
+                string message = playerScore == 3 ? "Player Wins the Game!" : "Computer Wins the Game!";
+                MessageBox.Show(message);
+                playerScore = 0;
+                cpuScore = 0;
+                lbl_PlayerScore.Text = playerScore.ToString();
+                lbl_ComputerScore.Text = cpuScore.ToString();
+                Thread.Sleep(1000);
+            }
+
+            ClearGame();
+        }
+
     }
 }
