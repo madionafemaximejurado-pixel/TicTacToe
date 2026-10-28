@@ -30,17 +30,17 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.lbl_ComputerScore = new System.Windows.Forms.Label();
+            this.lbl_PlayerScore = new System.Windows.Forms.Label();
+            this.b1 = new System.Windows.Forms.Button();
+            this.b2 = new System.Windows.Forms.Button();
+            this.b3 = new System.Windows.Forms.Button();
+            this.b6 = new System.Windows.Forms.Button();
+            this.b5 = new System.Windows.Forms.Button();
+            this.b4 = new System.Windows.Forms.Button();
+            this.b9 = new System.Windows.Forms.Button();
+            this.b8 = new System.Windows.Forms.Button();
+            this.b7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -63,133 +63,133 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "CPU:";
             // 
-            // label3
+            // lbl_ComputerScore
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(155, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 37);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "0";
+            this.lbl_ComputerScore.AutoSize = true;
+            this.lbl_ComputerScore.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ComputerScore.Location = new System.Drawing.Point(155, 104);
+            this.lbl_ComputerScore.Name = "lbl_ComputerScore";
+            this.lbl_ComputerScore.Size = new System.Drawing.Size(34, 37);
+            this.lbl_ComputerScore.TabIndex = 3;
+            this.lbl_ComputerScore.Text = "0";
             // 
-            // label4
+            // lbl_PlayerScore
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(172, 60);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 37);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "0";
+            this.lbl_PlayerScore.AutoSize = true;
+            this.lbl_PlayerScore.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_PlayerScore.Location = new System.Drawing.Point(172, 60);
+            this.lbl_PlayerScore.Name = "lbl_PlayerScore";
+            this.lbl_PlayerScore.Size = new System.Drawing.Size(34, 37);
+            this.lbl_PlayerScore.TabIndex = 2;
+            this.lbl_PlayerScore.Text = "0";
             // 
-            // button1
+            // b1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(152, 285);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 98);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Y";
-            this.button1.UseVisualStyleBackColor = false;
+            this.b1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b1.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b1.ForeColor = System.Drawing.Color.White;
+            this.b1.Location = new System.Drawing.Point(152, 285);
+            this.b1.Name = "b1";
+            this.b1.Size = new System.Drawing.Size(102, 98);
+            this.b1.TabIndex = 4;
+            this.b1.Text = "Y";
+            this.b1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // b2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(260, 285);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 98);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Y";
-            this.button2.UseVisualStyleBackColor = false;
+            this.b2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b2.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b2.ForeColor = System.Drawing.Color.White;
+            this.b2.Location = new System.Drawing.Point(260, 285);
+            this.b2.Name = "b2";
+            this.b2.Size = new System.Drawing.Size(102, 98);
+            this.b2.TabIndex = 5;
+            this.b2.Text = "Y";
+            this.b2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // b3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(368, 285);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 98);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Y";
-            this.button3.UseVisualStyleBackColor = false;
+            this.b3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b3.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b3.ForeColor = System.Drawing.Color.White;
+            this.b3.Location = new System.Drawing.Point(368, 285);
+            this.b3.Name = "b3";
+            this.b3.Size = new System.Drawing.Size(102, 98);
+            this.b3.TabIndex = 6;
+            this.b3.Text = "Y";
+            this.b3.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // b6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button6.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(368, 389);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(102, 98);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Y";
-            this.button6.UseVisualStyleBackColor = false;
+            this.b6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b6.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b6.ForeColor = System.Drawing.Color.White;
+            this.b6.Location = new System.Drawing.Point(368, 389);
+            this.b6.Name = "b6";
+            this.b6.Size = new System.Drawing.Size(102, 98);
+            this.b6.TabIndex = 10;
+            this.b6.Text = "Y";
+            this.b6.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // b5
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button7.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(260, 389);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(102, 98);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "Y";
-            this.button7.UseVisualStyleBackColor = false;
+            this.b5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b5.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b5.ForeColor = System.Drawing.Color.White;
+            this.b5.Location = new System.Drawing.Point(260, 389);
+            this.b5.Name = "b5";
+            this.b5.Size = new System.Drawing.Size(102, 98);
+            this.b5.TabIndex = 9;
+            this.b5.Text = "Y";
+            this.b5.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // b4
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button8.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(152, 389);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(102, 98);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Y";
-            this.button8.UseVisualStyleBackColor = false;
+            this.b4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b4.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b4.ForeColor = System.Drawing.Color.White;
+            this.b4.Location = new System.Drawing.Point(152, 389);
+            this.b4.Name = "b4";
+            this.b4.Size = new System.Drawing.Size(102, 98);
+            this.b4.TabIndex = 8;
+            this.b4.Text = "Y";
+            this.b4.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // b9
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button10.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(368, 493);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(102, 98);
-            this.button10.TabIndex = 14;
-            this.button10.Text = "Y";
-            this.button10.UseVisualStyleBackColor = false;
+            this.b9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b9.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b9.ForeColor = System.Drawing.Color.White;
+            this.b9.Location = new System.Drawing.Point(368, 493);
+            this.b9.Name = "b9";
+            this.b9.Size = new System.Drawing.Size(102, 98);
+            this.b9.TabIndex = 14;
+            this.b9.Text = "Y";
+            this.b9.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // b8
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button11.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(260, 493);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(102, 98);
-            this.button11.TabIndex = 13;
-            this.button11.Text = "Y";
-            this.button11.UseVisualStyleBackColor = false;
+            this.b8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b8.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b8.ForeColor = System.Drawing.Color.White;
+            this.b8.Location = new System.Drawing.Point(260, 493);
+            this.b8.Name = "b8";
+            this.b8.Size = new System.Drawing.Size(102, 98);
+            this.b8.TabIndex = 13;
+            this.b8.Text = "Y";
+            this.b8.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // b7
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button12.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(152, 493);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(102, 98);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "Y";
-            this.button12.UseVisualStyleBackColor = false;
+            this.b7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.b7.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b7.ForeColor = System.Drawing.Color.White;
+            this.b7.Location = new System.Drawing.Point(152, 493);
+            this.b7.Name = "b7";
+            this.b7.Size = new System.Drawing.Size(102, 98);
+            this.b7.TabIndex = 12;
+            this.b7.Text = "Y";
+            this.b7.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -197,17 +197,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(660, 685);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.b9);
+            this.Controls.Add(this.b8);
+            this.Controls.Add(this.b7);
+            this.Controls.Add(this.b6);
+            this.Controls.Add(this.b5);
+            this.Controls.Add(this.b4);
+            this.Controls.Add(this.b3);
+            this.Controls.Add(this.b2);
+            this.Controls.Add(this.b1);
+            this.Controls.Add(this.lbl_ComputerScore);
+            this.Controls.Add(this.lbl_PlayerScore);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -221,17 +221,17 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label lbl_ComputerScore;
+        private System.Windows.Forms.Label lbl_PlayerScore;
+        private System.Windows.Forms.Button b1;
+        private System.Windows.Forms.Button b2;
+        private System.Windows.Forms.Button b3;
+        private System.Windows.Forms.Button b6;
+        private System.Windows.Forms.Button b5;
+        private System.Windows.Forms.Button b4;
+        private System.Windows.Forms.Button b9;
+        private System.Windows.Forms.Button b8;
+        private System.Windows.Forms.Button b7;
     }
 }
 
